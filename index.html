@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  
+  <title>Single Price Grid</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="bg-gray mt-4 flex flex-col absolute w-full h-full justify-center items-center">
+  <main class="max-w-[375px] md:items-stretch md:grid md:grid-cols-2 md:max-w-[48rem] w-[90%] font-fontKarla">
+    <article class="md:col-start-1 md:col-end-3 bg-light md:my-auto p-6 md:p-10 rounded-t-[8px]">
+      <h2 class="text-cyan font-bold text-xl md:mb-5 ">Join our community</h2>
+      <p class="text-brightYellow font-bold my-3">30-day, hassle-free money back guarantee</p>
+      <p class="text-sm text-bluish md:max-w-[70ch] md:leading-[2]"> Gain access to our full library of tutorials along with expert code reviews. 
+        Perfect for any developers who are serious about honing their skills.</p>
+    </article>
+    <article class="p-6 md:rounded-bl-[8px] md:row-start-2 md:row-span-1 md:col-span-1 md:p-10 md:flex-1 bg-cyan font-bold">
+      <h2 class="text-xl text-light mb-4 ">Monthly Subscription</h2>
+      
+        <p class="flex flex-row items-center gap-2 font-bold text-3xl text-light">&dollar;29 <span class="text-gray font-light">per month</span></p>
+   
+      <p class="mt-3 text-light font-light">Full access for less than &dollar;1 a day</p>
+      <button class="mt-8 rounded-[8px] p-3 bg-brightYellow text-light text-lg font-bold w-full ">Sign Up</button>
+    </article>
+    <article class="p-6 md:col-start-2 md:row-start-2 md:row-span-1 md:col-span-1 md:p-10 md:flex-1 bg-blue md:rounded-bl-[0px] rounded-b-[8px]">
+      <h2 class="font-bold text-lg text-light"> Why Us</h2>
+      <ul class="mt-4 leading-[1.2] md:leading-[1.4] text-light">
+        <li>Tutorials by industry experts</li>
+        <li> Peer &amp; expert code review</li>
+        <li>Coding exercises</li>
+        <li>Access to our GitHub repos</li>
+        <li>Community forum</li>
+        <li>Flashcard decks</li>
+        <li>New videos every week</li>
+      </ul>
+    </article>
+  </main>
+  
+  <footer>
+    <p class="attribution mt-4">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Ndickers</a>.
+    </p>
+  </footer>
+</body>
+</html>

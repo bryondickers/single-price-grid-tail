@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-size:1rem;
+    }
+    :root{
+        --bluish: 197 63% 54%;
+        --bright-yellow: 71 73% 54%;
+        --cyan:179 62% 43%;
+        --gray: 204 43% 93%;
+        --blue:180 100% 25%;
+        --white:0 0% 100%;
+
+    }
+}
